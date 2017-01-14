@@ -28,6 +28,10 @@ function! MakeHeaderComment(bc,cc,ec)
    let s:author = g:commenter_author
  end
 
+ if exists('g:commenter_license')
+   let s:license = g:commenter_license
+ end
+
  let s:print_header_comment  = a:bc . "\r"
  let s:print_header_comment .= a:cc . " License: " . s:license . "\r\r"
  let s:print_header_comment .= a:cc . " File: " . expand('%:t') . "\r"
