@@ -6,16 +6,16 @@
 "  Created: 14-01-2017
 " ---------------------------------------------
 
-autocmd bufnewfile *.vim 		call MakeHeaderComment('','" ','')
-autocmd bufnewfile *.c   		call MakeHeaderComment('/*','  ','*/')
-autocmd bufnewfile *.cc   	call MakeHeaderComment('/*','  ','*/')
-autocmd bufnewfile *.cpp   	call MakeHeaderComment('/*','  ','*/')
-autocmd bufnewfile *.c++   	call MakeHeaderComment('/*','  ','*/')
-autocmd bufnewfile *.cxx   	call MakeHeaderComment('/*','  ','*/')
-autocmd bufnewfile *.js  		call MakeHeaderComment('/*','  ','*/')
-autocmd bufnewfile *.v 	  	call MakeHeaderComment('/*','  ','*/')
-autocmd bufnewfile *.vhd 		call MakeHeaderComment('','--','')
-autocmd bufnewfile *.html 	call MakeHeaderComment('<!--','','-->')
+autocmd bufnewfile *.vim   call MakeHeaderComment('','" ','')
+autocmd bufnewfile *.c     call MakeHeaderComment('/*','  ','*/')
+autocmd bufnewfile *.cc    call MakeHeaderComment('/*','  ','*/')
+autocmd bufnewfile *.cpp   call MakeHeaderComment('/*','  ','*/')
+autocmd bufnewfile *.c++   call MakeHeaderComment('/*','  ','*/')
+autocmd bufnewfile *.cxx   call MakeHeaderComment('/*','  ','*/')
+autocmd bufnewfile *.js    call MakeHeaderComment('/*','  ','*/')
+autocmd bufnewfile *.v     call MakeHeaderComment('/*','  ','*/')
+autocmd bufnewfile *.vhd   call MakeHeaderComment('','--','')
+autocmd bufnewfile *.html  call MakeHeaderComment('<!--','','-->')
 
 
 " bc=begin comment, cc=continue comment, ec=end comment
